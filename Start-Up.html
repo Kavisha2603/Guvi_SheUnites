@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartUp Store - She Unites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fce4ec, #e1bee7);
+            color: #333;
+        }
+
+        header {
+            background: #ff8fab;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-bottom-left-radius: 50% 10%;
+            border-bottom-right-radius: 50% 10%;
+            font-size: 1.8rem;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            color: #7f5af0;
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background: #ff8fab;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ff5f9e;
+        }
+
+        .back-btn {
+            display: block;
+            text-align: center;
+            margin: 2rem auto;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ff8fab;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        🛍️ StartUp Store - Support Women-led Businesses 🛍️
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="images/startup1.jpg" alt="Startup 1">
+            <h2>🌿 Organic Skincare</h2>
+            <p>Handmade, eco-friendly skincare products for healthy glowing skin.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <img src="images/startup2.jpg" alt="Startup 2">
+            <h2>👗 Sustainable Fashion</h2>
+            <p>Ethically sourced clothing designed by women for women.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <img src="images/startup3.jpg" alt="Startup 3">
+            <h2>☕ Artisanal Coffee</h2>
+            <p>Supporting women farmers with premium organic coffee blends.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <img src="images/startup4.jpg" alt="Startup 4">
+            <h2>📚 Women’s Bookstore</h2>
+            <p>A curated selection of books by female authors and entrepreneurs.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+    </div>
+
+    <a href="indel.html" class="back-btn btn">⬅ Back to Home</a>
+
+    <footer>
+        &copy; 2025 She Unites. All rights reserved.
+    </footer>
+
+</body>
+</html>
